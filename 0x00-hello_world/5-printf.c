@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - print line with printf function
- * Return: 0
+ * main - Entry point
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n")
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
-}
