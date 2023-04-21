@@ -3,9 +3,8 @@
 /**
  * main - print the size of various types besed on
  * the computer it is compiled and run on..
- * Return: Always 0 (success)
+ * Return: Always 0 (success).
  */
-
 int main(void)
 
 {
