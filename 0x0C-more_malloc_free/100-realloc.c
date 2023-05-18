@@ -6,6 +6,7 @@
  * @ptr: Pointer to allocated memory
  * @old_size: Size in bytes
  * @new_size: Size in bytes
+ * Return: Pointer
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
