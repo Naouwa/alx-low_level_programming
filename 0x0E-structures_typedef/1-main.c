@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x0d. structures, typedef$ cat 1-main.c
 #include <stdio.h>
 #include "dog.h"
 
