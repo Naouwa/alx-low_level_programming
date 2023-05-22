@@ -20,7 +20,6 @@ int _strlen(char *str)
  * _strcpy - copies the string pointed to src
  * @dest: pointer to the buffer
  * @src: string to be copied
- * 
  * Return: pointer to dest
  */
 char *_strcpy(char *dest, char *src)
@@ -30,7 +29,7 @@ char *_strcpy(char *dest, char *src)
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 	dest[i] = '\0';
-	
+
 	return (dest);
 }
 /**
@@ -38,7 +37,7 @@ char *_strcpy(char *dest, char *src)
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * Return: pointer to new dog (success),if not NULL
+ * Return: pointer to new dog (success), if not NULL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -65,7 +64,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dog);
 		return (NULL);
 	}
-
 	dog->name = _strcpy(dog->name, name);
 	dog->age = age;
 	dog->owner = _strcpy(dog->owner, owner);
