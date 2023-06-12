@@ -8,7 +8,7 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int o, w;
+	int w, o;
 	int len = 0;
 
 	if (filename == NULL)
@@ -23,7 +23,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	o = open(filename, O_WRONLY | O_APPEND);
 	w = write(o, text_content, len);
 
-	if (o == -1 || w == -1)
+	if (w == -1 || o == -1)
 		return (-1);
 
 	close(o);
