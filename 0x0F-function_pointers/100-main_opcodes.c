@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	char *ptr;
+	cgcc -std=gnu89 100-main_opcodes.c -o mainhar *ptr;
 	int b, i;
 
 	if (argc != 2)
