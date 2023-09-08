@@ -9,11 +9,12 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
+
 	unsigned long int i, index = 0;
 	hash_table_t *new;
 	char *cp_value;/*copy of the value*/
 
-	/**if (!ht || !key || *key == '\0' || !value)
+	/*if (!ht || !key || *key == '\0' || !value)
 		return (0);
 
 	cp_value = strdup(value);
