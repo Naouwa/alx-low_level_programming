@@ -21,7 +21,6 @@ int jump_search(int *array, size_t size, int value)
 			break;
 		printf("Value checked array[%d] = [%d]\n", step, array[step]);
 		prev = step;
-		step += step;
 		step += (int) sqrt(length);
 	}
 
